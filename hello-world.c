@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
   int n = 5; //max
 
   // repeat n times
-  for (i = 0; i<n; i++)
+  for (i = 0; i<atoi(argv[1]); i++)
   {  
   printf("Hello World!\n");
   }
