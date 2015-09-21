@@ -3,7 +3,14 @@
 
 int main(int argc, char* argv[])
 {
+  int i = 0; // iterator
+  int n = 5; //max
+
+  // repeat n times
+  for (i = 0; i<n; i++)
+  {  
   printf("Hello World!\n");
+  }
 
   printf("argc = %d\n", argc);
 
